@@ -1,0 +1,26 @@
+.Buttons {
+    position: relative;
+    display: flex;
+}
+
+.Buttons-fact {
+    position: absolute;
+    right: 0px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 6px;
+    color: lightsalmon;
+    background-color: black;
+    border: none;
+}
+
+.Buttons-fact:hover {
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
+
+.Buttons i {
+    font-size: 200%;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+}

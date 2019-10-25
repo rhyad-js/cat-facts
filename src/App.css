@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'quiet_meowsregular';
+  src: url('quiet_meows-webfont.woff2') format('woff2'),
+       url('quiet_meows-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  position: relative;
+  z-index: -1;
+  height: 20vmin;
+  transform: translateY(5px);
+}
+
+.App-header {
+  font-family: 'quiet_meowsregular';
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  background-color: lightsalmon;
+  border-bottom: 5px solid grey;
+}
+
